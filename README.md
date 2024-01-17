@@ -1,5 +1,6 @@
 ### Hi there 👋
 
+<<<<<<< HEAD
 Howdy!
 
 I'm a college student and currently most of my work and projects have to live in school cloud servers and classrooms for the time being. So this repo is going to look pretty inactive. But let the lack of nice green squares fool you! I am busting my hump daily learning data analytics, data management, and other necessary IT skills. I don't have much opportunity to make *meaningful* use of Git, and I'd rather have an honest display of my activity than script updates to look busy. 

@@ -1,0 +1,176 @@
+﻿Diagnose log at 2024-01-17T07:27:20Z
+
+AppPath: C:\Program Files\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: C:\Program Files\Git\mingw64\bin\
+Version: 2.4.1
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 19045)
+Reading environment variables... OK
+ Variables:
+TMPDIR=C:\Users\mhols\AppData\Local\Temp
+DriverData=C:\Windows\System32\Drivers\DriverData
+COMPUTERNAME=DESKTOP-CCI4TST
+MSYSTEM=MINGW64
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+OneDrive=C:\Users\mhols\OneDrive
+PROCESSOR_REVISION=0101
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+TMP=C:\Users\mhols\AppData\Local\Temp
+TEMP=C:\Users\mhols\AppData\Local\Temp
+LOCALAPPDATA=C:\Users\mhols\AppData\Local
+PUBLIC=C:\Users\Public
+TERM=xterm-256color
+PROCESSOR_IDENTIFIER=AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD
+ProgramW6432=C:\Program Files
+USERDOMAIN=DESKTOP-CCI4TST
+ProgramFiles(x86)=C:\Program Files (x86)
+Path=C:/Program Files/Git/mingw64/libexec/git-core;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\mhols\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\PowerShell\7\;C:\Program Files\Git\cmd;C:\Users\mhols\AppData\Local\Microsoft\WindowsApps;C:\Users\mhols\AppData\Local\Programs\Microsoft VS Code\bin
+POWERSHELL_DISTRIBUTION_CHANNEL=MSI:Windows 10 Home
+PROCESSOR_LEVEL=23
+NUMBER_OF_PROCESSORS=8
+PSModulePath=C:\Users\mhols\OneDrive\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+CommonProgramFiles=C:\Program Files (x86)\Common Files
+USERPROFILE=C:\Users\mhols
+PLINK_PROTOCOL=ssh
+COLORTERM=truecolor
+MSYS=disable_pcon
+ProgramFiles=C:\Program Files (x86)
+GIT_TRACE2_PARENT_SID=9cd200e8-1129-43ca-b0f3-4e30b92c2f79
+SystemRoot=C:\Windows
+HOME=C:\Users\mhols
+LC_CTYPE=C.UTF-8
+CommonProgramW6432=C:\Program Files\Common Files
+GIT_EXEC_PATH=C:/Program Files/Git/mingw64/libexec/git-core
+APPDATA=C:\Users\mhols\AppData\Roaming
+ProgramData=C:\ProgramData
+USERNAME=mhols
+PROCESSOR_ARCHITEW6432=AMD64
+PROCESSOR_ARCHITECTURE=x86
+OS=Windows_NT
+ComSpec=C:\Windows\system32\cmd.exe
+SystemDrive=C:
+windir=C:\Windows
+OneDriveConsumer=C:\Users\mhols\OneDrive
+ALLUSERSPROFILE=C:\ProgramData
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\mhols\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\mhols\AppData\Local\Temp\13c2416b9a1d5a12514a52d2'... OK
+Reading from temporary file 'C:\Users\mhols\AppData\Local\Temp\13c2416b9a1d5a12514a52d2'... OK
+Deleting temporary file 'C:\Users\mhols\AppData\Local\Temp\13c2416b9a1d5a12514a52d2'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\mhols
+UserDataDirectoryPath: C:\Users\mhols\.gcm
+GetCurrentDirectory(): C:\Users\Study User\Documents\GitGrove\miho333
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... OK
+ OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:65037/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.43.0.windows.1'
+Locating current repository... OK
+Git repository at 'C:/Users/Study User/Documents/GitGrove/miho333/.git'
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Program Files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig	http.sslbackend=openssl
+file:C:/Program Files/Git/etc/gitconfig	http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+file:C:/Program Files/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig	core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig	core.symlinks=false
+file:C:/Program Files/Git/etc/gitconfig	pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig	credential.helper=manager
+file:C:/Program Files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/mhols/.gitconfig	core.editor="C:\Users\mhols\AppData\Local\Programs\Microsoft VS Code\bin\code" --wait
+file:C:/Users/mhols/.gitconfig	user.name=miho333
+file:C:/Users/mhols/.gitconfig	user.email=mckyle@gmail.com
+file:C:/Users/mhols/.gitconfig	credential.helper=
+file:C:/Users/mhols/.gitconfig	credential.helper=C:/Program\ Files/Git/mingw64/bin/git-credential-manager.exe
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	remote.origin.url=https://github.com/miho333/miho333.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+file:.git/config	branch.main.remote=origin
+file:.git/config	branch.main.merge=refs/heads/main
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\mhols\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\mhols\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
