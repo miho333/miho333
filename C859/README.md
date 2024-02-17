@@ -1,0 +1,1 @@
+These are my working notes and a few projects I wanted to hang onto from a python class. Nothing much, mostly kept for posterity and/or reference later. May export and upload my full class notes later once the course is complete. 
